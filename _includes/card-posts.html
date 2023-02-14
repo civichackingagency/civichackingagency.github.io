@@ -1,0 +1,13 @@
+<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
+    <div class="card">
+        <div class="card-body">
+            <h3>
+                <a href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
+            </h3>
+            <p>{{ item.description }}</p>
+        </div>
+        <div class="card-footer">
+            <small>{% include date.html %}</small>
+        </div>
+    </div>
+</div>

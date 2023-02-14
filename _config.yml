@@ -1,0 +1,39 @@
+title: Civic Hacking Agency
+description: A collective of technologists supporting civic organizations, and one another.
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+#  - jekyll-paginate
+
+# Date/time
+date: "%B %-d, %Y"
+timezone: America/Los_Angeles
+
+# Defaults
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      folder: "News"
+      img-path: "posts"
+      parent: "news"
+      layout: "post"
+      short: "true"
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /news/:title
+  pages:
+    output: true
+    permalink: :title

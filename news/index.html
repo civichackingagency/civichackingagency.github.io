@@ -1,0 +1,12 @@
+---
+layout: wrapper
+title: News
+---
+<div class="col-sm-12">
+    <div class="card-deck">
+        {% assign posts = site.posts %}
+        {% for item in posts %}
+            {% include card-posts.html %}
+        {% endfor %}
+    </div>
+</div>

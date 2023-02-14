@@ -1,0 +1,40 @@
+<script>
+    fetch('https://api.github.com/orgs/civichackingagency').then(res => res.json()).then(data => {
+        document.getElementById('logo').src = data.avatar_url;
+    });
+</script>
+<div class="nav logo">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="{{ site.baseurl }}/">
+                    <img
+                        alt="{{ site.title }} logo"
+                        id="logo"
+                        class="sm">
+                </a>
+            </div>
+            <div class="col-sm-6 text-right">
+                <div class="d-none d-md-block connect">
+                    {% include social.html size="footer" %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+<nav class="navbar navbar-expand-xs navbar-light bg-light">
+    <button aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler ml-auto" data-target="#navbarNavAltMarkup" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto text-right">
+            {% for item in site.data.nav.docs %}
+                {% if item.url %}
+                    <a class="nav-item nav-link {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</nav>
+-->

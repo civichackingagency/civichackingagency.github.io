@@ -1,0 +1,11 @@
+docs_list_title: nav
+docs:
+
+- title: About
+  url: https://civichackingagency.github.io/docs/about
+
+- title: News
+  url: /news/
+
+- title: Docs
+  url: https://civichackingagency.github.io/docs

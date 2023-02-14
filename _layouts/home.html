@@ -1,0 +1,153 @@
+---
+layout: home
+---
+
+{% include header.html %}
+{% include nav.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <i class="fa-solid fa-code fa-3x mb-3"></i>
+                <h2>Technologists</h2>
+                <p>(Developers, designers)</p>
+                <p><a href="" class="btn btn-lg btn-primary">Get started</a></p>
+            </div>
+            <div class="col-sm-6">
+                <i class="fa-solid fa-landmark fa-3x mb-3"></i>
+                <h2>Organizations</h2>
+                <p>(Governments, nonprofits)</p>
+                <p><a href="" class="btn btn-lg btn-primary">Get support</a></p>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>People</h2>
+                <div class="card-deck clean" id="people">
+                    <script>
+                        fetch('https://api.github.com/orgs/civichackingagency/public_members').then(res => res.json()).then(data => {
+                            data.forEach(person => {
+                                fetch(person.url).then(res => res.json()).then(person => {
+                                    document.getElementById('people').innerHTML += `
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img class="rounded-circle sm mb-3" src="${person.avatar_url}">
+                                            <h4>
+                                                <a href="${person.html_url}" class="stretched-link">${person.name || person.login}</a>
+                                            </h4>
+                                            <p class="small">
+                                                @${person.login}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    `;
+                                });
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Repositories</h2>
+                <div class="card-deck clean">
+                    <script>
+                        fetch('https://api.github.com/orgs/civichackingagency/repos').then(res => res.json()).then(data => {
+                            data.forEach(repo => {
+                                fetch(repo.url).then(res => res.json()).then(repo => {
+                                    console.log(repo)
+                                  /*  document.getElementById('people').innerHTML += `
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img class="rounded-circle sm" src="${repo.avatar_url}">
+                                            <h4>
+                                                <a href="${person.html_url}" class="stretched-link">${person.name || person.login}</a>
+                                            </h4>
+                                            <p class="small">
+                                                <i>@${person.login}</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    `;*/
+                                });
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <div class="container section-2">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Discuss</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-deck clean">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3><a href="https://github.com/civichackingagency/discussions/discussions/2">What is civic hacking?</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3><a href="https://github.com/orgs/civichackingagency/discussions/1">Why is civic hacking important?</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3><a href="https://github.com/orgs/civichackingagency/discussions/3">What is a civic hacker?</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-right">
+                <a href="https://github.com/civichackingagency/discussions/discussions" class="btn btn-outline-primary">Discussions</a>
+            </div>
+        </div>
+    </div>
+    {% if site.posts %}
+        <div class="container section-2">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>News</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card-deck">
+                        {% assign posts = site.posts %}
+                        {% for item in posts %}
+                            {% include card-posts.html %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-right">
+                    <a href="{{ site.baseurl }}/news/" class="btn btn-outline-primary">News</a>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</main>
+{% include analytics.html %}
+{% include footer.html %}
