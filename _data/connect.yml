@@ -78,7 +78,7 @@ docs:
     icon: *discord
 
   - name: Twitter 
-    url: 
+    url: https://twitter.com/Civic_Hacking
     icon: *twitter
 
   - name: Medium
