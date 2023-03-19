@@ -39,10 +39,9 @@
         
         <!-- CSS -->
         <!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="stylesheet" href="../bootstrap/bootstrap.css">
 <!-- Custom CSS -->
-<link href="/css/style.css" rel="stylesheet">
+<link href="/bootstrap/style.css" rel="stylesheet">
         <!-- Fonts -->
         <!-- Font Awesome --> <link href="/assets/font-awesome/css/all.css" rel="stylesheet">
 
@@ -63,11 +62,11 @@
 <meta property="og:url" content="http://localhost:4000/index" />
 <meta property="og:site_name" content="Civic Hacking Agency" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-02-23T19:07:31-08:00" />
+<meta property="article:published_time" content="2023-03-19T16:15:08-07:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Civic Hacking Agency" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-02-23T19:07:31-08:00","datePublished":"2023-02-23T19:07:31-08:00","description":"We are a collaborative of technologists supporting civic organizations, and one another.","headline":"Civic Hacking Agency","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/index"},"url":"http://localhost:4000/index"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-19T16:15:08-07:00","datePublished":"2023-03-19T16:15:08-07:00","description":"We are a collaborative of technologists supporting civic organizations, and one another.","headline":"Civic Hacking Agency","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/index"},"url":"http://localhost:4000/index"}</script>
 <!-- End Jekyll SEO tag -->
 
     <meta name="twitter:card" content="summary_large_image"> </head>
@@ -84,255 +83,293 @@
         document.getElementById('logo').src = data.avatar_url;
     });
 </script>
-<div class="nav logo">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6">
-                <a href="/">
-                    <img
-                        alt="Civic Hacking Agency logo"
-                        id="logo"
-                        class="sm">
-                </a>
-            </div>
-            <div class="col-sm-6 text-right">
-                <div class="d-none d-md-block connect">
-                    <!-- Footer -->
 
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-            <a href="https://github.com/civichackingagency/" aria-label="GitHub">
-                <i class="fab fa-github fa-lg"></i>
-            </a>
-        
-    
-        
-            <a href="https://discord.gg/jWRn4tKgK8" aria-label="Discord">
-                <i class="fab fa-discord fa-lg"></i>
-            </a>
-        
-    
-        
-            <a href="https://twitter.com/Civic_Hacking" aria-label="Twitter">
-                <i class="fab fa-twitter fa-lg"></i>
-            </a>
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    <!-- Profile -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--
-<nav class="navbar navbar-expand-xs navbar-light bg-light">
-    <button aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler ml-auto" data-target="#navbarNavAltMarkup" data-toggle="collapse" type="button">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Container wrapper -->
+    <!-- Brand -->
+        <a class="navbar-brand" href="/"> <img
+            src="/assets/img/avatar-reverse.svg"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top">
+        Civic Hacking Agency
+    </a>
+    <!-- Toggle button -->
+    <!--  <button
+    class="navbar-toggler"
+    type="button"
+    data-mdb-toggle="collapse"
+    aria-label="Toggle navigation"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    data-mdb-target="#navbarSupportedContent">
+    <i class="fas fa-bars"></i>
+    </button>--><button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler ml-auto collapsed"
+        data-target="#navbarSupportedContent"
+        data-toggle="collapse"
+        type="button">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mr-auto text-right">
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
                 
-                    <a class="nav-item nav-link " href="https://civichackingagency.github.io/docs/about">About</a>
-                
-            
-                
-                    <a class="nav-item nav-link " href="https://docs.google.com/presentation/d/17-3reRuJE_ppcJDpqKhlgyp29RGcdkFMlNMWr1pVFrQ/edit?usp=sharing">Deck</a>
+                    <a class="nav-item nav-link text-white " href="https://civichackingagency.github.io/docs/about">About</a>
                 
             
                 
-                    <a class="nav-item nav-link " href="https://civichackingagency.github.io/docs">Docs</a>
+                    <a class="nav-item nav-link text-white " href="https://civichackingagency.github.io/docs">Docs</a>
                 
             
                 
-                    <a class="nav-item nav-link " href="/news/">News</a>
+                    <a class="nav-item nav-link text-white " href="/news/">News</a>
                 
             
-        </div>
+        </ul>
+
+        <!-- Icons -->
+        <ul class="navbar-nav d-flex flex-row me-1" ">
+            
+    <!-- Profile -->
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="nav-item me-3 me-lg-0 mr-2 ml-2">
+                <a
+                    href="https://github.com/civichackingagency/"
+                    aria-label="GitHub"
+                    class="text-white mr-1 ml-1">
+                    <i class="fab fa-github fa-lg"></i>
+                </a>
+            </li>
+        
+    
+        
+            <li class="nav-item me-3 me-lg-0 mr-2 ml-2">
+                <a
+                    href="https://discord.gg/jWRn4tKgK8"
+                    aria-label="Discord"
+                    class="text-white mr-1 ml-1">
+                    <i class="fab fa-discord fa-lg"></i>
+                </a>
+            </li>
+        
+    
+        
+            <li class="nav-item me-3 me-lg-0 mr-2 ml-2">
+                <a
+                    href="https://twitter.com/Civic_Hacking"
+                    aria-label="Twitter"
+                    class="text-white mr-1 ml-1">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        </ul>
     </div>
+
 </nav>
--->
 <main>
-    
-    <div class="jumbotron jumbotron-home">
+    <div class="jumbotron bg-gradient rounded-0 text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                
+                    <h1>We are a collaborative of technologists supporting civic organizations, and one another.</h1>
+                    
+                        <a href="https://civichackingagency.github.io/docs/about" class="btn btn-outline-light btn-lg mt-3">Learn more</a>
+                    
+                
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+</div><!--
         <div class="container">
-            <div class="row">
-                <div class="col-sm-9">
-                    <h1 class="h2">We are a collaborative of technologists supporting civic organizations, and one another.</h1>
-                    <a class="btn btn-outline-primary btn-lg mt-3 mr-3" href="https://civichackingagency.github.io/docs" class="btn btn-outline-primary btn-lg mt-3">Learn more</a>
-                </div>
-                <div class="col-sm-3">
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-body">
-                            <i class="fa-solid fa-code fa-3x mb-3"></i>
-                            <h2>Technologists</h2>
-                            <p><a href="https://civichackingagency.github.io/docs/technologists" class="stretched-link btn btn-lg btn-primary mt-2">Learn more</a></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <i class="fa-solid fa-landmark fa-3x mb-3"></i>
-                            <h2>Organizations</h2>
-                            <p><a href="https://civichackingagency.github.io/docs/organizations" class="stretched-link btn btn-lg btn-primary mt-2">Learn more</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-sm-12">
+        <div class="card-deck">
+        <div class="card">
+        <div class="card-body">
+        <i class="fa-solid fa-code fa-3x mb-3"></i>
+        <h2>Technologists</h2>
+        <p>
+        <a href="https://civichackingagency.github.io/docs/technologists" class="stretched-link btn btn-lg btn-primary mt-2">Learn more</a>
+        </p>
         </div>
-    </div>
-    <!--
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>People</h2>
-                <div class="card-deck clean" id="people">
-                    <script>
-                        fetch('https://api.github.com/orgs/civichackingagency/public_members').then(res => res.json()).then(data => {
-                            data.forEach(person => {
-                                fetch(person.url).then(res => res.json()).then(person => {
-                                    document.getElementById('people').innerHTML += `
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img class="rounded-circle sm mb-3" src="${person.avatar_url}">
-                                            <h4>
-                                                <a href="${person.html_url}" class="stretched-link">${person.name || person.login}</a>
-                                            </h4>
-                                            <p class="small">
-                                                @${person.login}
-                                            </p>
-                                        </div>
-                                    </div>
-                                    `;
-                                });
-                            });
-                        });
-                    </script>
-                </div>
-            </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>Repositories</h2>
-                <div class="card-deck clean">
-                    <script>
-                        fetch('https://api.github.com/orgs/civichackingagency/repos').then(res => res.json()).then(data => {
-                            data.forEach(repo => {
-                                fetch(repo.url).then(res => res.json()).then(repo => {
-                                    console.log(repo)
-                                  /*  document.getElementById('people').innerHTML += `
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img class="rounded-circle sm" src="${repo.avatar_url}">
-                                            <h4>
-                                                <a href="${person.html_url}" class="stretched-link">${person.name || person.login}</a>
-                                            </h4>
-                                            <p class="small">
-                                                <i>@${person.login}</i>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    `;*/
-                                });
-                            });
-                        });
-                    </script>
-                </div>
-            </div>
+        <div class="card">
+        <div class="card-body">
+        <i class="fa-solid fa-landmark fa-3x mb-3"></i>
+        <h2>Organizations</h2>
+        <p>
+        <a href="https://civichackingagency.github.io/docs/organizations" class="stretched-link btn btn-lg btn-primary mt-2">Learn more</a>
+        </p>
         </div>
-    </div>
-    <div class="container section-2">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        --><!--<div class="container mb-5">
         <div class="row">
-            <div class="col-sm-12">
-                <h2>Discuss</h2>
-            </div>
+        <div class="col-sm-12">
+        <h2>People</h2>
+        <div class="card-deck clean" id="people">
+        <script>
+        fetch('https://api.github.com/orgs/civichackingagency/public_members').then(res => res.json()).then(data => {
+        data.forEach(person => {
+        fetch(person.url).then(res => res.json()).then(person => {
+        document.getElementById('people').innerHTML += `
+        <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 d-flex align-items-stretch">
+        <div class="card">
+        <div class="card-body">
+        <a href="${
+        person.html_url
+        }" class="stretched-link"><img class="rounded-circle img-fluid mb-3" alt="${
+        person.name || person.login
+        } avatar" src="${
+        person.avatar_url
+        }"></a>
+        </div>
+        </div>
+        </div>
+        `;
+        });
+        });
+        });
+        </script>
+        </div>
+        </div>
         </div>
         <div class="row">
-            <div class="col-sm-12">
-                <div class="card-deck clean">
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3><a href="https://github.com/civichackingagency/discussions/discussions/2">What is civic hacking?</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3><a href="https://github.com/orgs/civichackingagency/discussions/1">Why is civic hacking important?</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3><a href="https://github.com/orgs/civichackingagency/discussions/3">What is a civic hacker?</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-sm-12">
+        <a href="https://github.com/orgs/civichackingagency/people" class="btn btn-outline-primary">People</a>
         </div>
-        <div class="row">
-            <div class="col-sm-12 text-right">
-                <a href="https://github.com/civichackingagency/discussions/discussions" class="btn btn-outline-primary">Discussions</a>
-            </div>
         </div>
-    </div>
-    -->
-    
+        </div>
+
         <div class="container section-2">
-            <div class="row">
+        <div class="row">
+        <div class="col-sm-12">
+        <h2>Projects</h2>
+        <div class="card-deck clean">
+        <script>
+        fetch('https://api.github.com/orgs/civichackingagency/repos').then(res => res.json()).then(data => {
+        data.forEach(repo => {
+        fetch(repo.url).then(res => res.json()).then(repo => {
+        console.log(repo)
+
+        /*  document.getElementById('people').innerHTML += `
+        <div class="card">
+        <div class="card-body">
+        <img class="rounded-circle sm" src="${repo.avatar_url}">
+        <h4>
+        <a href="${person.html_url}" class="stretched-link">${person.name || person.login}</a>
+        </h4>
+        <p class="small">
+        <i>@${person.login}</i>
+        </p>
+        </div>
+        </div>
+        `;*/
+        });
+        });
+        });
+        </script>
+        </div>
+        </div>
+        </div>
+        </div>
+        --><!--
+        <div class="container section-2">
+        <div class="row">
+        <div class="col-sm-12">
+        <h2>Discuss</h2>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-12">
+        <div class="card-deck">
+        <div class="col-12">
+        <div class="card">
+        <div class="card-body">
+        <h3><a href="https://github.com/civichackingagency/discussions/discussions/2">What is civic hacking?</a></h3>
+        </div>
+        </div>
+        </div>
+        <div class="col-12">
+        <div class="card">
+        <div class="card-body">
+        <h3><a href="https://github.com/orgs/civichackingagency/discussions/1">Why is civic hacking important?</a></h3>
+        </div>
+        </div>
+        </div>
+        <div class="col-12">
+        <div class="card">
+        <div class="card-body">
+        <h3><a href="https://github.com/orgs/civichackingagency/discussions/3">What is a civic hacker?</a></h3>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-12 text-right">
+        <a href="https://github.com/civichackingagency/discussions/discussions" class="btn btn-outline-primary">Discussions</a>
+        </div>
+        </div>
+        </div>
+        -->
+        
+            <div class="container"> <div class="row">
                 <div class="col-sm-12">
                     <h2>News</h2>
                 </div>
@@ -342,19 +379,27 @@
                     <div class="card-deck">
                         
                         
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-stretch">
-    <div class="card">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch pl-0 pr-0">
+    <div class="card mb-3 mt-3">
+        <!--
+        <div class="card-header">
+        Featured
+        </div>
+        -->
         <div class="card-body">
+            <img
+                src="/assets/img/avatar-reverse.svg"
+                class="card-img-top bg-gradient"
+                alt="...">
             <h3>
                 <a href="/news/hello-world" class="">Hello world</a>
             </h3>
-            <p class="small">Civic Hacking Agency is just getting started. Learn how you can participate.</p>
+            <p>Civic Hacking Agency is just getting started. Learn how you can participate.</p>
         </div>
-        <div class="card-footer">
-            <small>
+        <div class="card-footer text-muted">
+            
     February 11, 2023
 
-</small>
         </div>
     </div>
 </div>
@@ -372,42 +417,35 @@
 </main>
 
 <footer>
-    <div class="footer">
+    <div class="footer bg-gradient mt-5 pt-4 pb-3">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
-                    <ul class="list-unstyled">
-                        
-                        
-                        <li>
-                            <a href="https://civichackingagency.github.io/docs/about">About</a>
-                        </li>
-                        
-                        
-                        
-                        <li>
-                            <a href="https://docs.google.com/presentation/d/17-3reRuJE_ppcJDpqKhlgyp29RGcdkFMlNMWr1pVFrQ/edit?usp=sharing">Deck</a>
-                        </li>
-                        
-                        
-                        
-                        <li>
-                            <a href="https://civichackingagency.github.io/docs">Docs</a>
-                        </li>
-                        
-                        
-                        
-                        <li>
-                            <a href="/news/">News</a>
-                        </li>
-                        
-                        
-                    </ul>
-                </div>
-                <div class=" col-sm-6 text-right">
-                    <div class="connect">
-                        <!-- Footer -->
-
+            <div class="col-sm-6">
+                <ul class="list-unstyled">
+                    
+                    
+                    <li>
+                        <a href="https://civichackingagency.github.io/docs/about" class="text-white">About</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://civichackingagency.github.io/docs" class="text-white">Docs</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/news/" class="text-white">News</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+            <div class=" col-sm-6 text-right">
+                
+    <!-- Footer -->
     
         
     
@@ -423,19 +461,19 @@
     
         
             <a href="https://github.com/civichackingagency/" aria-label="GitHub">
-                <i class="fab fa-github fa-lg"></i>
+                <i class="mr-2 ml-2 text-white fab fa-github fa-lg"></i>
             </a>
         
     
         
             <a href="https://discord.gg/jWRn4tKgK8" aria-label="Discord">
-                <i class="fab fa-discord fa-lg"></i>
+                <i class="mr-2 ml-2 text-white fab fa-discord fa-lg"></i>
             </a>
         
     
         
             <a href="https://twitter.com/Civic_Hacking" aria-label="Twitter">
-                <i class="fab fa-twitter fa-lg"></i>
+                <i class="mr-2 ml-2 text-white fab fa-twitter fa-lg"></i>
             </a>
         
     
@@ -465,11 +503,9 @@
     
         
     
-    <!-- Profile -->
 
-                    </div>
-                </div>
             </div>
+        </div>
         </div>
     </div>
 </footer>
@@ -486,38 +522,24 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <script>
-    if (
-        window.matchMedia("(prefers-color-scheme: dark)").matches &&
-        localStorage.getItem("color-theme") == "dark"
-    ) {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches && localStorage.getItem("color-theme") == "dark") {
         document.querySelector("html").setAttribute("class", "dark");
         document.querySelector("div.dark-toggle").innerHTML = "<i class=\"fa-solid fa-sun\"></i>";
         localStorage.setItem("color-theme", "dark");
     }
-    document.querySelector("div.dark-toggle").onclick = function () {
-        document.querySelector("div.dark-toggle").innerHTML = (document
-            .querySelector("div.dark-toggle")
-            .innerHTML
-            .includes("sun"))
-                ? "<i class=\"fa-solid fa-moon\"></i>"
-                : "<i class=\"fa-solid fa-sun\"></i>";
-        document
-            .querySelector("html")
-            .classList
-            .toggle("dark");
+    document.querySelector("div.dark-toggle").onclick = function() {
+        document.querySelector("div.dark-toggle").innerHTML = (document.querySelector("div.dark-toggle").innerHTML.includes("sun"))
+            ? "<i class=\"fa-solid fa-moon\"></i>"
+            : "<i class=\"fa-solid fa-sun\"></i>";
+        document.querySelector("html").classList.toggle("dark");
         localStorage.setItem(
-                    "color-theme", document
-                .querySelector("html")
-                .classList
-                .contains("dark")
-                    ? "dark"
-                    : "light"
-                );
+            "color-theme",
+            document.querySelector("html").classList.contains("dark")
+                ? "dark"
+                : "light"
+        );
     };
-    document
-        .querySelector("html")
-        .classList
-        .add(localStorage.getItem("color-theme"));
+    document.querySelector("html").classList.add(localStorage.getItem("color-theme"));
     document.querySelector("div.dark-toggle").innerHTML = (localStorage.getItem("color-theme") == "light")
         ? "<i class=\"fa-solid fa-moon\"></i>"
         : "<i class=\"fa-solid fa-sun\"></i>";

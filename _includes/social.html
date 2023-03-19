@@ -1,13 +1,26 @@
-<!-- Footer -->
 {% if include.size == "footer" %}
+    <!-- Footer -->
     {% for item in site.data.connect.docs %}
         {% if item.url %}
             <a href="{{ item.url }}" aria-label="{{ item.name }}">
-                <i class="{{ item.icon }} {{ site.data.connect.sm }}"></i>
+                <i class="mr-2 ml-2 text-white {{ item.icon }} {{ site.data.connect.sm }}"></i>
             </a>
         {% endif %}
     {% endfor %}
+{% elsif include.size == "nav" %}
     <!-- Profile -->
+    {% for item in site.data.connect.docs %}
+        {% if item.url %}
+            <li class="nav-item me-3 me-lg-0 mr-2 ml-2">
+                <a
+                    href="{{ item.url }}"
+                    aria-label="{{ item.name }}"
+                    class="text-white mr-1 ml-1">
+                    <i class="{{ item.icon }} {{ site.data.connect.sm }}"></i>
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
 {% elsif include.size == "small" %}
     <p class="social">
         {% if author_data %}

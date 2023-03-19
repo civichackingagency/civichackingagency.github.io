@@ -1,33 +1,20 @@
-{% if page.layout == "home" %}
-    <div class="jumbotron jumbotron-home">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-9">
-                    <h1 class="h2">{{ page.description }}</h1>
-                    <a class="btn btn-outline-primary btn-lg mt-3 mr-3" href="https://civichackingagency.github.io/docs" class="btn btn-outline-primary btn-lg mt-3">Learn more</a>
-                </div>
-                <div class="col-sm-3">
-                </div>
-            </div>
-        </div>
-    </div>
-    {% else %}
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-9">
+<div class="jumbotron bg-gradient rounded-0 text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                {% if page.layout == "home" %}
+                    <h1>{{ page.description }}</h1>
+                    {% if page.button-link %}
+                        <a href="{{ page.button-link }}" class="btn btn-outline-light btn-lg mt-3">{{ page.button-title }}</a>
+                    {% endif %}
+                {% else %}
                     <h1>{{ page.title }}</h1>
-                </div>
-                <div class="col-sm-3"></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-9">
                     {% if page.description %}
                         <p class="lead">{{ page.description }}</p>
                     {% endif %}
-                </div>
-                <div class="col-sm-3"></div>
+                {% endif %}
             </div>
+            <div class="col-sm-4"></div>
         </div>
     </div>
-{% endif %}
+</div>

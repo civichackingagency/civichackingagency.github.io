@@ -11,38 +11,24 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <script>
-    if (
-        window.matchMedia("(prefers-color-scheme: dark)").matches &&
-        localStorage.getItem("color-theme") == "dark"
-    ) {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches && localStorage.getItem("color-theme") == "dark") {
         document.querySelector("html").setAttribute("class", "dark");
         document.querySelector("div.dark-toggle").innerHTML = "<i class=\"fa-solid fa-sun\"></i>";
         localStorage.setItem("color-theme", "dark");
     }
-    document.querySelector("div.dark-toggle").onclick = function () {
-        document.querySelector("div.dark-toggle").innerHTML = (document
-            .querySelector("div.dark-toggle")
-            .innerHTML
-            .includes("sun"))
-                ? "<i class=\"fa-solid fa-moon\"></i>"
-                : "<i class=\"fa-solid fa-sun\"></i>";
-        document
-            .querySelector("html")
-            .classList
-            .toggle("dark");
+    document.querySelector("div.dark-toggle").onclick = function() {
+        document.querySelector("div.dark-toggle").innerHTML = (document.querySelector("div.dark-toggle").innerHTML.includes("sun"))
+            ? "<i class=\"fa-solid fa-moon\"></i>"
+            : "<i class=\"fa-solid fa-sun\"></i>";
+        document.querySelector("html").classList.toggle("dark");
         localStorage.setItem(
-                    "color-theme", document
-                .querySelector("html")
-                .classList
-                .contains("dark")
-                    ? "dark"
-                    : "light"
-                );
+            "color-theme",
+            document.querySelector("html").classList.contains("dark")
+                ? "dark"
+                : "light"
+        );
     };
-    document
-        .querySelector("html")
-        .classList
-        .add(localStorage.getItem("color-theme"));
+    document.querySelector("html").classList.add(localStorage.getItem("color-theme"));
     document.querySelector("div.dark-toggle").innerHTML = (localStorage.getItem("color-theme") == "light")
         ? "<i class=\"fa-solid fa-moon\"></i>"
         : "<i class=\"fa-solid fa-sun\"></i>";

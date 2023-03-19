@@ -3,38 +3,53 @@
         document.getElementById('logo').src = data.avatar_url;
     });
 </script>
-<div class="nav logo">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6">
-                <a href="{{ site.baseurl }}/">
-                    <img
-                        alt="{{ site.title }} logo"
-                        id="logo"
-                        class="sm">
-                </a>
-            </div>
-            <div class="col-sm-6 text-right">
-                <div class="d-none d-md-block connect">
-                    {% include social.html size="footer" %}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--
-<nav class="navbar navbar-expand-xs navbar-light bg-light">
-    <button aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler ml-auto" data-target="#navbarNavAltMarkup" data-toggle="collapse" type="button">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Container wrapper -->
+    <!-- Brand -->
+        <a class="navbar-brand" href="{{ site.baseurl }}/"> <img
+            src="/assets/img/avatar-reverse.svg"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top">
+        Civic Hacking Agency
+    </a>
+    <!-- Toggle button -->
+    <!--  <button
+    class="navbar-toggler"
+    type="button"
+    data-mdb-toggle="collapse"
+    aria-label="Toggle navigation"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    data-mdb-target="#navbarSupportedContent">
+    <i class="fas fa-bars"></i>
+    </button>--><button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler ml-auto collapsed"
+        data-target="#navbarSupportedContent"
+        data-toggle="collapse"
+        type="button">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mr-auto text-right">
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             {% for item in site.data.nav.docs %}
                 {% if item.url %}
-                    <a class="nav-item nav-link {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                    <a class="nav-item nav-link text-white {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}
             {% endfor %}
-        </div>
+        </ul>
+
+        <!-- Icons -->
+        <ul class="navbar-nav d-flex flex-row me-1" ">
+            {% include social.html size = "nav" %}
+        </ul>
     </div>
+
 </nav>
--->
