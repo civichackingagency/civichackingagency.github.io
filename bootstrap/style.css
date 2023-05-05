@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: var(--font-1);
 }
 
+sup {
+    font-family: var(--font-4);
+}
+
 .bg-dark {
     background: var(--color-1) !important;
 }

@@ -15,6 +15,7 @@
             height="24"
             class="d-inline-block align-text-top">
         Civic Hacking Agency
+        <sup>ALPHA</sup>
     </a>
     <!-- Toggle button -->
     <!--  <button
@@ -41,7 +42,8 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             {% for item in site.data.nav.docs %}
                 {% if item.url %}
-                    <a class="nav-item nav-link text-white {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                    <a class="nav-item nav-link text-white {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}
+                    </a>
                 {% endif %}
             {% endfor %}
         </ul>
