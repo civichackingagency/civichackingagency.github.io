@@ -44,7 +44,7 @@ docs:
     icon: *email
 
   - name: Subscribe
-    url: https://mailchi.mp/4561a2caac91/civic-hacking-agnecy-newsletter
+    url: https://mailchi.mp/754e6f656770/civic-hacking-agency-newsletter
     icon: *subscribe
 
   - name: Patreon
@@ -83,6 +83,6 @@ docs:
     icon: *figma
 
   - name: RSS
-    url: 
+    url: https://civichackingagency.org/feed.xml
     icon: *rss
     

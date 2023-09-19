@@ -11,6 +11,9 @@ plugins:
 #  - jekyll-paginate
 markdown: kramdown
 
+# 404
+permalink: /404.html
+
 # Date/time
 date: "%B %-d, %Y"
 timezone: America/Los_Angeles

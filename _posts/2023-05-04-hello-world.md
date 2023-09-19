@@ -26,10 +26,11 @@ CHA was started after Luke (father) and Elias (son) Fretwell started coding toge
 
 Connect with us:
 
-* [Subscribe]()
-* [Discord]()
-* [Instagram]()
-* [Twitter]()
-* [GitHub]()
+* [Subscribe](https://mailchi.mp/754e6f656770/civic-hacking-agency-newsletter)
+* [Discord](https://discord.gg/jWRn4tKgK8)
+* [Instagram](https://www.instagram.com/civichackingagency/)
+* [Twitter](https://twitter.com/Civic_Hacking)
+* [GitHub](https://github.com/civichackingagency/)
+* [RSS](https://civichackingagency.org/feed.xml)
 
-Questions? Interested in helping out? [Send us a message.](https://civichackingagency.github.io/docs/)
+Questions? Interested in helping out? [Send us a message.](https://docs.civichackingagency.org/contact/)
