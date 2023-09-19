@@ -2,7 +2,7 @@
 layout: default
 title: "About"
 description: "About Civic Hacking Agency."
-url: /about/
+permalink: /about/
 ---
 
 ## Civic hacking
