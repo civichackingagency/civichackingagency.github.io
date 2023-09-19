@@ -2,22 +2,12 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WPY1MC3PQ2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-WPY1MC3PQ2');
-    </script>
-
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <meta name="description" content="{{ page.description }}">
     <meta content="" name="keywords">
-    <meta name="author" content="{{ site.name }}">
+    <meta name="author" content="{{ site.title }}">
     <!-- Title -->
     <title>{{ page.title }} - {{ site.title }}</title>
     <!-- Favicon -->
@@ -38,25 +28,19 @@
     {% else %}
     <meta property="og:image" content="{{ site.url }}/assets/img/avatar.png">
     {% endif %}
+    <meta name="twitter:card" content="summary_large_image">
     <!-- CSS -->
     {% include style.html %}
     <!-- Fonts -->
     {% include fonts.html %}
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    <!-- SEO -->
-    {% seo %}
-    <meta name="twitter:card" content="summary_large_image">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-
 
 <body class="{{ page.parent }}">
     <a class="sr-only sr-only-focusable skip-link" href="#main-content">
         Skip to main content
     </a>
-</body>
-
-</html>

@@ -5,9 +5,7 @@ url: https://civichackingagency.org
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
 #  - jekyll-paginate
 markdown: kramdown
 
