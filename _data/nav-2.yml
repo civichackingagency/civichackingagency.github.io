@@ -1,0 +1,11 @@
+docs_list_title: nav-2
+docs:
+
+- title: Code of conduct
+  url: https://civichackingagency.github.io/docs/conduct
+
+- title: Report an issue
+  url: https://civichackingagency.github.io/docs/report
+
+- title: Contact
+  url: https://civichackingagency.github.io/docs/contact

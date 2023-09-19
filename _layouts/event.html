@@ -1,0 +1,41 @@
+---
+layout: event
+---
+
+{% include header.html %}
+{% include nav.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container">
+        <div class="row post">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <h2>Date</h2>
+                <p>
+                    {% include date.html %}<br>
+                    {{ page.time }}<br>
+                </p>
+                <h2>Location</h2>
+                <p>
+                    {{ page.location }}
+                </p>
+                {% if page.rsvp-link %}
+                <h2>RSVP</h2>
+                <p>Space is limited.</p>
+                <p>
+                    <a href="{{ site.baseurl }}/{{ page.rsvp-link}}" class="btn btn-primary">Register</a>
+                </p>
+                {% endif %}
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                {{ content }}
+                <h2>Etc.</h2>
+                <ul>
+                    <li><a href="https://civichackingagency.github.io/docs/conduct">Code of conduct</a></li>
+                    <li><a href="https://civichackingagency.github.io/docs/contact">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

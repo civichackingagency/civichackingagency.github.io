@@ -1,0 +1,31 @@
+---
+layout: project
+---
+
+{% include header.html %}
+{% include nav.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container">
+        <div class="row post">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                {% if page.author %}
+                <p class="text-secondary">
+                    Built by {{ page.author }} / Posted: {% include date.html %}
+                </p>
+                {% endif %}
+                {{ content }}
+                {% if page.link %}
+                <h2>Visit</h2>
+                <p>
+                    <a href="{{ site.baseurl }}/{{ page.link}}" class="btn btn-primary">Visit project</a>
+                </p>
+                {% endif %}
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            </div>
+        </div>
+    </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}

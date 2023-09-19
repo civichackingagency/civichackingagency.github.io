@@ -1,0 +1,25 @@
+<div class="card-deck">
+    {% if include.limit %}
+    {% assign limitVar = include.limit | plus: 0 %}
+    {% endif %}
+    {% for item in site.projects limit: limitVar %}
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                {% if item.img %}
+                <img src="{{ site.baseurl }}/assets/img/{{ item.img }}" alt="{{ item.source }} logo"
+                    class="sm rounded float-left mr-3">
+                {% endif %}
+                <h3 class="card-title h5">
+                    <a href="{{ item.url }}" class="stretched-link"">
+                        {{ item.title }}
+                    </a>
+                </h3>
+                <p class=" card-text">
+                        {{ item.description }}
+                        </p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

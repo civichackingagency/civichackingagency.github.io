@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-05T12:04:28-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Civic Hacking Agency</title><subtitle>A collaborative of technologists supporting civic organizations, and one another.</subtitle><entry><title type="html">Hello world</title><link href="http://localhost:4000/news/hello-world" rel="alternate" type="text/html" title="Hello world" /><published>2023-05-04T15:47:05-07:00</published><updated>2023-05-04T15:47:05-07:00</updated><id>http://localhost:4000/news/hello-world</id><content type="html" xml:base="http://localhost:4000/news/hello-world"><![CDATA[<p>Welcome to the Civic Hacking Agency. <a href="https://civichackingagency.github.io/docs/">Learn more.</a></p>]]></content><author><name>Civic Hacking Agency</name></author><summary type="html"><![CDATA[This is a prototype for how a sustainable, scalable civic hacking organization can operate.]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-18T19:13:39-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Civic Hacking Agency</title><subtitle>Bringing youth technologists together to design, code and learn a new way to experience civics.</subtitle><entry><title type="html">Hello world</title><link href="http://localhost:4000/news/hello-world" rel="alternate" type="text/html" title="Hello world" /><published>2023-05-04T15:47:05-07:00</published><updated>2023-05-04T15:47:05-07:00</updated><id>http://localhost:4000/news/hello-world</id><content type="html" xml:base="http://localhost:4000/news/hello-world"><![CDATA[<p>Civic hacking is the idea that anyone who sees a .</p>
+
+<p>There’s often a technology aspect to civic hacking, particularly as governments and civil society at large become more digital-oriented.</p>
+
+<p>Civic Hacking Agency is testing out a new way to bring youth technologists together to design, code and learn a new way to experience civics.</p>
+
+<p>This includes:</p>
+
+<ul>
+  <li>Meetups: Pitch, code and demo civic-focused projects.</li>
+  <li>Guest talks: Engage with civic technology experts and leaders.</li>
+</ul>
+
+<p>We do this through:</p>
+
+<ul>
+  <li>Regular meetups</li>
+  <li>Guest talks</li>
+</ul>
+
+<p>CHA was started after Luke (father) and Elias (son) Fretwell started coding together during the pandemic. <a href="https://www.govtech.com/civic/a-young-civic-hacker-could-be-the-next-generation-of-gov-tech">Learn more about our story.</a></p>
+
+<p>Connect with us:</p>
+
+<ul>
+  <li><a href="">Subscribe</a></li>
+  <li><a href="">Discord</a></li>
+  <li><a href="">Instagram</a></li>
+  <li><a href="">Twitter</a></li>
+  <li><a href="">GitHub</a></li>
+</ul>
+
+<p>Questions? Interested in helping out? <a href="https://civichackingagency.github.io/docs/">Send us a message.</a></p>]]></content><author><name>Civic Hacking Agency</name></author><summary type="html"><![CDATA[We're testing a new idea.]]></summary></entry></feed>

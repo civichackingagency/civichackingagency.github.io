@@ -8,15 +8,13 @@ layout: post
     {% include jumbotron.html %}
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                <div class="">
-                    <p class="text-secondary">
-                        {% include date.html %}
-                    </p>
-                    {{ content }}
-                </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 post">
+                <p class="text-secondary">
+                    By {{ page.author }} / {% include date.html %}
+                </p>
+                {{ content }}
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5"></div>
         </div>
     </div>
 </main>

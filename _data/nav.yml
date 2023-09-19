@@ -2,10 +2,19 @@ docs_list_title: nav
 docs:
 
 - title: About
-  url: https://civichackingagency.github.io/docs/about
+  url: /about/
 
-- title: Docs
-  url: https://civichackingagency.github.io/docs
+- title: Events
+  url: /events/
+
+- title: Projects
+  url: /projects/
 
 - title: News
   url: /news/
+
+- title: Press
+  url: /press/
+
+- title: Docs
+  url: https://civichackingagency.github.io/docs

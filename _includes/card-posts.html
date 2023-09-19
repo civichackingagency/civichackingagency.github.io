@@ -1,22 +1,15 @@
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch pl-0 pr-0">
-    <div class="card mb-3 mt-3">
-        <!--
-        <div class="card-header">
-        Featured
-        </div>
-        -->
-        <div class="card-body">
-            <img
-                src="/assets/img/avatar-reverse.svg"
-                class="card-img-top bg-dark"
-                alt="...">
-            <h3>
-                <a href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
-            </h3>
-            <p>{{ item.description }}</p>
-        </div>
-        <div class="card-footer text-muted">
-            {% include date.html %}
+<div class="card-deck">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+        <div class="card">
+            <div class="card-body">
+                <h3>
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="stretched-link">{{ item.title }}</a>
+                </h3>
+                <p class="card-text">{{ item.description }}</p>
+            </div>
+            <div class="card-footer text-muted">
+                {% include date.html %}
+            </div>
         </div>
     </div>
 </div>

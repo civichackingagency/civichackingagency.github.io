@@ -1,20 +1,54 @@
-<div class="jumbotron bg-gradient rounded-0 text-white">
+{% if page.layout == "home" %}
+<div class="jumbotron jumbotron-home bg-gradient pixelated-bg rounded-0 text-white mb-5">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
-                {% if page.layout == "home" %}
-                    <h1>{{ page.description }}</h1>
-                    {% if page.button-link %}
-                        <a href="{{ page.button-link }}" class="btn btn-outline-light btn-lg mt-3">{{ page.button-title }}</a>
-                    {% endif %}
-                {% else %}
-                    <h1>{{ page.title }}</h1>
-                    {% if page.description %}
-                        <p class="lead">{{ page.description }}</p>
-                    {% endif %}
-                {% endif %}
+            <div class="col-sm-12">
+                <h1>{{ page.description }}</h1>
             </div>
-            <div class="col-sm-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                {% if page.description-2 %}
+                <p class="lead mt-3 mb-4">{{ page.description-2 }}</p>
+                {% endif %}
+                {% include social.html size="" %}
+            </div>
+            <div class="col-md-7"></div>
         </div>
     </div>
 </div>
+{% elsif page.layout == "event" %}
+<div class="jumbotron jumbotron-home  rounded-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>{{ page.title }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+            </div>
+            <div class="col-md-7"></div>
+        </div>
+    </div>
+</div>
+{% else %}
+<div class="jumbotron bg-gradient rounded-0 text-white mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <h1>{{ page.title }}</h1>
+                        {% if page.description %}
+                        <p class="lead mt-3 mb-4">{{ page.description }}</p>
+                        {% endif %}
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}

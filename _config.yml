@@ -1,9 +1,5 @@
 title: Civic Hacking Agency
-description: A collaborative of technologists supporting civic organizations, and one another.
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+description: Bringing youth technologists together to design, code and learn a new way to experience civics.
 
 # Build settings
 plugins:
@@ -12,6 +8,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 #  - jekyll-paginate
+markdown: kramdown
 
 # Date/time
 date: "%B %-d, %Y"
@@ -28,6 +25,24 @@ defaults:
       parent: "news"
       layout: "post"
       short: "true"
+  - scope:
+      path: "_events"
+      type: "events"
+    values:
+      folder: "Events"
+      img-path: "events"
+      parent: "events"
+      layout: "event"
+      short: "true"
+  - scope:
+      path: "_projects"
+      type: "projects"
+    values:
+      folder: "Projects"
+      img-path: "projects"
+      parent: "projects"
+      layout: "project"
+      short: "true"
 
 # Collections
 collections:
@@ -37,3 +52,9 @@ collections:
   pages:
     output: true
     permalink: :title
+  events:
+    output: true
+    permalink: /events/:title
+  projects:
+    output: true
+    permalink: /projects/:title
