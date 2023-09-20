@@ -6,9 +6,9 @@
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
         <div class="card">
             <div class="card-body">
-                {% if item.img %}
-                <img src="{{ site.baseurl }}/assets/img/{{ item.img }}" alt="{{ item.source }} logo"
-                    class="sm rounded float-left mr-3">
+                {% if item.feat-img %}
+                <img src="{{ site.baseurl }}/assets/img/{{ item.feat-img }}" alt="{{ item.title }}"
+                    class="lg rounded mb-3">
                 {% endif %}
                 <h3 class="card-title h5">
                     <a href="{{ item.url }}" class="stretched-link"">

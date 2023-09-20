@@ -13,4 +13,6 @@ events-title: Events
 events-link: /events/
 projects-title: Projects
 projects-link: /projects/
+faq-title: FAQs
+faq-link: /faqs/
 ---

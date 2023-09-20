@@ -15,14 +15,20 @@ CHA is focused on connecting youth technologists with a new way of doing civics.
 
 We do this through:
 
-* Regular meetups
-* Guest talks
+* Regular meetups: Pitch, code and demo civic-focused projects.
+* Guest talks: Engage with civic technology experts and leaders. 
 
-CHA was started after Luke (father) and Elias (son) Fretwell started coding together during the pandemic. [Learn more about our story.](https://www.govtech.com/civic/a-young-civic-hacker-could-be-the-next-generation-of-gov-tech)
+## People
+
+The idea for CHA began after Luke (father) and Elias (son) Fretwell started coding together during the pandemic. [Learn more about our story.](https://www.govtech.com/civic/a-young-civic-hacker-could-be-the-next-generation-of-gov-tech)
+
+Elias is a sophomore at Acalanes High School in Lafayette, Calif. 
+
+Luke is the co-founder of [ProudCity](https://proudcity.com), a platform empowering local governments across the nation to deliver better digital services. [More about Luke.](https://lukefretwell.com)
 
 ## Related
 
-* [Code of conduct](https://civichackingagency.github.io/docs/conduct)
-* [Docs](https://civichackingagency.github.io/docs/)
-* [Contact](https://civichackingagency.github.io/docs/contact)
-
+* [FAQs](/faqs)
+* [Code of conduct](https://docs.civichackingagency.org/conduct)
+* [Docs](https://docs.civichackingagency.org/)
+* [Contact](https://docs.civichackingagency.org/contact)

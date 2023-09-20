@@ -62,6 +62,8 @@
     --color-5: #adcdff;
     --color-6: #008659;
     --color-7: #e6e6e6;
+    --color-8: #162e51;
+    --color-9: #1a4480;
     --size-1: 0rem;
     --size-2: 0.0625rem;
     --size-3: 1rem;
@@ -69,7 +71,18 @@
     --size-4: 3rem;
     --size-6: 5.5rem;
     --size-7: 12rem;
+    --size-8: .25rem;
     --gradient-1: linear-gradient(135deg, #0050d8 33%, #008659 66%);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-circle {
+    border: var(--size-8) solid var(--color-4);
+    padding: var(--size-8);
 }
 
 html, body {
@@ -83,17 +96,11 @@ html, body {
 
 body a, body a:visited {
     color: var(--color-5);
+    text-decoration: underline;
 }
 
 body a:hover {
     color: var(--color-5);
-}
-
-.post a, .post a:visited {
-    text-decoration: underline;
-}
-
-.post a:hover {
     text-decoration: none;
 }
 
@@ -103,6 +110,14 @@ body a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-7);
+}
+
+nav a, nav a:visited, footer a, footer a:visited {
+    text-decoration: none;
+}
+
+nav a:hover, footer a:hover {
+    text-decoration: underline;
 }
 
 .lead, .nav-item, .card-text {
@@ -228,4 +243,17 @@ body, .card-body, .card {
     transform: translateY(-1px);
     box-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
     text-decoration: none !important;
+}
+
+.social a, .social a:active, .social a:visited {
+    text-shadow: 3px 3px 0px var(--color-9);
+}
+
+.social a:hover {
+    text-shadow: 3px 3px 0px var(--color-8);
+    /* Move text 5 pixels up (negative Y-axis direction) on hover */
+}
+
+.social .fas:hover, .social .fab:hover, .social .fa-solid:hover, .social .fa-brands:hover {
+    transform: translateY(-1px);
 }

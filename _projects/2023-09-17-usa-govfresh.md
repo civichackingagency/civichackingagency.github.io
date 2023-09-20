@@ -3,7 +3,7 @@ date: 2023-09-17
 title: USA.GovFresh
 description: A collection of projects built using U.S. federal government data.
 author: Elias and Luke Fretwell
-img: usa.png
+feat-img: usa-govfresh.png
 link: https://usa.govfresh.com
 ---
 

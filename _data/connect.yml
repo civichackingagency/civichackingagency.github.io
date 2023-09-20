@@ -63,6 +63,10 @@ docs:
     url: https://discord.gg/jWRn4tKgK8
     icon: *discord
 
+  - name: GitHub
+    url: https://github.com/civichackingagency/
+    icon: *github
+
   - name: Instagram
     url: https://www.instagram.com/civichackingagency/
     icon: *instagram
@@ -71,9 +75,6 @@ docs:
     url: https://twitter.com/Civic_Hacking
     icon: *twitter
 
-  - name: GitHub
-    url: https://github.com/civichackingagency/
-    icon: *github
   - name: YouTube
     url: 
     icon: *youtube
