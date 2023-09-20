@@ -29,20 +29,18 @@ layout: event
                     {% endif %}
                 </p>
                 {% endif %}
-                {% if page.date %}
                 <h2>Date</h2>
                 <p>
+                    <!--
+                    {% if item.date %}
                     {% include date.html %}<br>
+                    {% endif %}
+                    -->
+                    {% if page.date-tbd %}
+                    {{ page.date-tbd }}<br>
+                    {% endif %}
                     {{ page.time }}<br>
                 </p>
-                {% endif %}
-                {% if page.date-tbd %}
-                <h2>Date</h2>
-                <p>
-                    {{ page.date-tbd }}<br>
-                    {{ page.date-tbd }}<br>
-                </p>
-                {% endif %}
                 {% if page.speaker-name %}
                 <h2>Location</h2>
                 <p>
