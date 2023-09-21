@@ -26,6 +26,23 @@ Elias is a sophomore at Acalanes High School in Lafayette, Calif.
 
 Luke is the co-founder of [ProudCity](https://proudcity.com), a platform empowering local governments across the nation to deliver better digital services. [More about Luke.](https://lukefretwell.com)
 
+## Values
+
+We value:
+
+* Joy
+* Impact
+* Humility
+* Equity
+* Diversity
+* Inclusivity
+* Meritocracy
+* Transparency
+* Accountability
+* Collaboration
+* Experimentation
+* Self-organization
+
 ## Related
 
 * [FAQs](/faqs)
