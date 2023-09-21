@@ -36,6 +36,10 @@ We're testing to see if others might also be interested in civics-focused coding
 
 No. We're testing this idea to see if it's of interest. If it is, we'll decide whether it's necessary to formalize operations and create an official nonprofit organization. For now, though, it's just a way to bring youth technologists together to code in the context of civics.
 
+## How can I help?
+
+We're just getting started and looking for a meetup space. [Contact us](https://doc.civichackingagency.org/contact) if you have a space or ideas for us.
+
 ## How can we stay updated?
 
 We've set up a few ways to [stay connected with us](https://docs.civichackingagency.org/connect).
