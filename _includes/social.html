@@ -3,7 +3,7 @@
 {% for item in site.data.connect.docs %}
 {% if item.url %}
 <a href="{{ item.url }}" aria-label="{{ item.name }}">
-    <i class="mr-2  text-white {{ item.icon }} {{ site.data.connect.sm }}"></i>
+    <i class="mr-2  text-white {{ item.icon }} {{ site.data.connect.md }}"></i>
 </a>
 {% endif %}
 {% endfor %}
@@ -13,7 +13,7 @@
 {% if item.url %}
 <li class="nav-item me-3 me-lg-0 mr-2 ">
     <a href="{{ item.url }}" aria-label="{{ item.name }}" class="text-white mr-1 ml-1">
-        <i class="{{ item.icon }} {{ site.data.connect.sm }}"></i>
+        <i class="{{ item.icon }} {{ site.data.connect.md }}"></i>
     </a>
 </li>
 {% endif %}
@@ -27,67 +27,67 @@
     {% endif %}
     {% if data.website %}
     <a href="{{ data.website }}" aria-label="Website">
-        <i class="{{ site.data.connect.website }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.website }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.email %}
     <a aria-label="Email" href="mailto:{{ data.email }}">
-        <i class=" {{ site.data.connect.email }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.email }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.calendar %}
     <a aria-label="Calendar" href="{{ data.calendar }}">
-        <i class=" {{ site.data.connect.calendar }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.calendar }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.subscribe %}
     <a href="{{ data.subscribe }}" aria-label="Subscribe">
-        <i class="{{ site.data.connect.subscribe }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.subscribe }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.patreon %}
     <a href="{{ data.patreon }}" aria-label="Patreon">
-        <i class="{{ site.data.connect.patreon }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.patreon }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.twitter %}
     <a href="{{ data.twitter }}" aria-label="Twitter">
-        <i class="{{ site.data.connect.twitter }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.twitter }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.linkedin %}
     <a href="{{ data.linkedin }}" aria-label="LinkedIn">
-        <i class="{{ site.data.connect.linkedin }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.linkedin }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.facebook %}
     <a href="{{ data.facebook }}" aria-label="Facebook">
-        <i class="{{ site.data.connect.facebook }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.facebook }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.github %}
     <a href="{{ data.github }}" aria-label="GitHub">
-        <i class="{{ site.data.connect.github }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.github }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.youtube %}
     <a href="{{ data.youtube }}" aria-label="YouTube">
-        <i class="{{ site.data.connect.youtube }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.youtube }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.instagram %}
     <a href="{{ data.instagram }}" aria-label="Instagram">
-        <i class="{{ site.data.connect.instagram }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.instagram }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.figma %}
     <a href="{{ data.figma }}" aria-label="Figma">
-        <i class="{{ site.data.connect.figma }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.figma }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
     {% if data.rss %}
     <a href="{{ data.rss }}" aria-label="RSS">
-        <i class="{{ site.data.connect.rss }} {{ site.data.connect.sm }}"></i>
+        <i class="mr-4 {{ site.data.connect.rss }} {{ site.data.connect.md }}"></i>
     </a>
     {% endif %}
 </p>

@@ -64,6 +64,7 @@
     --color-7: #e6e6e6;
     --color-8: #162e51;
     --color-9: #1a4480;
+    --color-10: #0ceda6;
     --size-1: 0rem;
     --size-2: 0.0625rem;
     --size-3: 1rem;
@@ -72,6 +73,7 @@
     --size-6: 5.5rem;
     --size-7: 12rem;
     --size-8: .25rem;
+    --size-9: .5rem;
     --gradient-1: linear-gradient(135deg, #0050d8 33%, #008659 66%);
 }
 
@@ -183,7 +185,6 @@ body, .card-body, .card {
 
 .social a, .social a:active, .social a:visited {
     color: var(--color-4) !important;
-    margin-right: var(--size-6);
     text-decoration: none !important;
 }
 
@@ -256,4 +257,33 @@ body, .card-body, .card {
 
 .social .fas:hover, .social .fab:hover, .social .fa-solid:hover, .social .fa-brands:hover {
     transform: translateY(-1px);
+}
+
+.badge {
+    background-color: var(--color-10);
+    border-radius: var(--size-1);
+    color: var(--color-1);
+    font-family: var(--font-6);
+    font-weight: normal;
+    padding: var(--size-9);
+}
+
+.list-group-item {
+    border: none;
+    padding: var(--size-7) var(--size-6) var(--size-7) var(--size-1);
+}
+
+/* Topics */
+
+.topics ul {
+    padding: var(--size-3) var(--size-1) var(--size-1) var(--size-1);
+}
+
+.topics li {
+    background-color: var(--color-10);
+    color: var(--color-1);
+    font-family: var(--font-6);
+    display: inline-block;
+    margin: var(--size-1) var(--size-9) var(--size-1) var(--size-1);
+    padding: var(--size-8);
 }

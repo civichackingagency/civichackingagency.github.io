@@ -45,6 +45,15 @@ defaults:
       parent: "projects"
       layout: "project"
       short: "true"
+  - scope:
+      path: "_speakers"
+      type: "speakers"
+    values:
+      folder: "Speakers"
+      img-path: "speakers"
+      parent: "speakers"
+      layout: "speaker"
+      short: "true"
 
 # Collections
 collections:
@@ -60,3 +69,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:title
+  speakers:
+    output: true
+    permalink: /speakers/:title

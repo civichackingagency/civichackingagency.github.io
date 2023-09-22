@@ -7,8 +7,10 @@ description: Details coming soon.
 feat-img: meetup.png
 location: Location TBD
 rsvp-link: x
+topics:
+  - topic
+  - topic
+  - topic
 ---
-
-## Details
 
 Coming soon.

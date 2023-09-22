@@ -16,8 +16,15 @@
                     </a>
                 </h3>
                 <p class=" card-text">
+                        {% if item.description %}
                         {{ item.description }}
+                        {% endif %}
                         </p>
+            </div>
+            <div class="card-footer text-muted">
+                {% if item.author %}
+                By {{ item.author }}<br>
+                {% endif %}
             </div>
         </div>
     </div>

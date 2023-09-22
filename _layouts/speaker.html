@@ -1,0 +1,29 @@
+---
+layout: speaker
+---
+
+{% include header.html %}
+{% include nav.html %}
+<main>
+    {% include jumbotron.html %}
+    <div class="container">
+        <div class="row post">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                {% if page.feat-img %}
+                <p><img src="{{ site.baseurl }}/assets/img/people/{{ page.feat-img }}" alt="{{ page.title }}"
+                        class="md mt-2 img-circle rounded-circle"></p>
+                {% endif %}
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                <h2>About {{ page.speaker-first-name }}</h2>
+                {{ content }}
+                <h2>Connect with {{ page.speaker-first-name }}</h2>
+                <p class="social">
+                    {% include social.html size="small" %}
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
+{% include analytics.html %}
+{% include footer.html %}
