@@ -3,6 +3,13 @@ title:  "Hello world"
 date:   2023-09-19 14:47:05 -0800
 author: Civic Hacking Agency
 description: "We're just getting started."
+img: #-header.png
+img-feat: #-feat.png
+img-og: #-og.png
+img-twitter: #-twitter.png
+img-alt: #""
+topics:
+  - civic hacking
 ---
 
 ## Civic hacking
