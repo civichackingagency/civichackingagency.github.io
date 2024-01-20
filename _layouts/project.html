@@ -5,33 +5,36 @@ layout: project
 {% include header.html %}
 {% include nav.html %}
 <main>
-    {% include jumbotron.html %}
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                {% if page.author %}
-                <p class="text-secondary">
-                    Built by {{ page.author }} / Posted {% include date.html %}
-                </p>
-                {% endif %}
-            </div>
-        </div>
-        <div class="row post">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
-                {{ content }}
-                {% if page.link %}
-                <p>
-                    <a href="{{ page.link}}" class="btn btn-primary mt-3">Visit project</a>
-                </p>
-                {% endif %}
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
-                {% if page.feat-img %}
-                <img src="{{ site.baseurl }}/assets/img/{{ page.feat-img }}" alt="{{ page.title }}" class="lg rounded">
-                {% endif %}
-            </div>
-        </div>
+  {% include jumbotron.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% if page.author %}
+          <p class="text-secondary">
+            Built by {{ page.author }} / Posted {% include date.html %}
+          </p>
+        {% endif %}
+      </div>
     </div>
+    <div class="row post">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+        {{ content }}
+        {% if page.link %}
+          <p>
+            <a href="{{ page.link}}" class="btn btn-primary mt-3">Visit project</a>
+          </p>
+        {% endif %}
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+        {% if page.img-feat %}
+          <img
+            src="{{ site.baseurl }}/assets/img/{{ page.img-feat }}"
+            alt="{{ page.title }}"
+            class="lg">
+        {% endif %}
+      </div>
+    </div>
+  </div>
 </main>
 {% include analytics.html %}
 {% include footer.html %}
