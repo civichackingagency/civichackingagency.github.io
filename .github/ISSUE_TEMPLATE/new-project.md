@@ -1,6 +1,6 @@
 ---
 name: New project
-about: Describe this issue template's purpose here.
+about: Add new project.
 title: 'Project: [PROJECT]'
 labels: ''
 assignees: ''
