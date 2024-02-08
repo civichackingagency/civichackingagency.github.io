@@ -51,10 +51,6 @@ docs:
     url: 
     icon: *patreon
 
-  - name: LinkedIn
-    url: 
-    icon: *linkedin
-
   - name: Facebook
     url:  
     icon: *facebook
@@ -74,6 +70,10 @@ docs:
   - name: Twitter 
     url: https://twitter.com/Civic_Hacking
     icon: *twitter
+
+  - name: LinkedIn
+    url:  https://www.linkedin.com/company/civic-hacking-agency
+    icon: *linkedin
 
   - name: YouTube
     url: 

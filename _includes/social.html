@@ -1,105 +1,117 @@
 {% if include.size == "footer" %}
-<!-- Footer -->
-{% for item in site.data.connect.docs %}
-{% if item.url %}
-<a href="{{ item.url }}" aria-label="{{ item.name }}">
-    <i class="mr-2  text-white {{ item.icon }} {{ site.data.connect.md }}"></i>
-</a>
-{% endif %}
-{% endfor %}
+  <!-- Footer -->
+  {% for item in site.data.connect.docs %}
+    {% if item.url %}
+      <a href="{{ item.url }}" aria-label="{{ item.name }}">
+        <i class="mr-2  text-white {{ item.icon }} {{ site.data.connect.md }}"></i>
+      </a>
+    {% endif %}
+  {% endfor %}
 {% elsif include.size == "nav" %}
-<!-- Profile -->
-{% for item in site.data.connect.docs %}
-{% if item.url %}
-<li class="nav-item me-3 me-lg-0 mr-2 ">
-    <a href="{{ item.url }}" aria-label="{{ item.name }}" class="text-white mr-1 ml-1">
-        <i class="{{ item.icon }} {{ site.data.connect.md }}"></i>
-    </a>
-</li>
-{% endif %}
-{% endfor %}
+  <!-- Profile -->
+  {% for item in site.data.connect.docs %}
+    {% if item.url %}
+      <li class="nav-item me-3 me-lg-0 mr-2 ">
+        <a
+          href="{{ item.url }}"
+          aria-label="{{ item.name }}"
+          class="text-white mr-1 ml-1">
+          <i class="{{ item.icon }} {{ site.data.connect.md }}"></i>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
 {% elsif include.size == "small" %}
-<p class="social">
+  <p class="social">
     {% if author_data %}
-    {% assign data = author_data %}
+      {% assign data = author_data %}
     {% else %}
-    {% assign data = page %}
+      {% assign data = page %}
     {% endif %}
     {% if data.website %}
-    <a href="{{ data.website }}" aria-label="Website">
+      <a href="{{ data.website }}" aria-label="Website">
         <i class="mr-4 {{ site.data.connect.website }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.email %}
-    <a aria-label="Email" href="mailto:{{ data.email }}">
+      <a aria-label="Email" href="mailto:{{ data.email }}">
         <i class="mr-4 {{ site.data.connect.email }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.calendar %}
-    <a aria-label="Calendar" href="{{ data.calendar }}">
+      <a aria-label="Calendar" href="{{ data.calendar }}">
         <i class="mr-4 {{ site.data.connect.calendar }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.subscribe %}
-    <a href="{{ data.subscribe }}" aria-label="Subscribe">
+      <a href="{{ data.subscribe }}" aria-label="Subscribe">
         <i class="mr-4 {{ site.data.connect.subscribe }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.patreon %}
-    <a href="{{ data.patreon }}" aria-label="Patreon">
+      <a href="{{ data.patreon }}" aria-label="Patreon">
         <i class="mr-4 {{ site.data.connect.patreon }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.twitter %}
-    <a href="{{ data.twitter }}" aria-label="Twitter">
+      <a href="{{ data.twitter }}" aria-label="Twitter">
         <i class="mr-4 {{ site.data.connect.twitter }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.linkedin %}
-    <a href="{{ data.linkedin }}" aria-label="LinkedIn">
+      <a href="{{ data.linkedin }}" aria-label="LinkedIn">
         <i class="mr-4 {{ site.data.connect.linkedin }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
+    {% endif %}
+    {% if data.linkedin %}
+      <a href="{{ data.linkedin }}" aria-label="LinkedIn">
+        <i class="mr-4 {{ site.data.connect.linkedin }} {{ site.data.connect.md }}"></i>
+      </a>
     {% endif %}
     {% if data.facebook %}
-    <a href="{{ data.facebook }}" aria-label="Facebook">
+      <a href="{{ data.facebook }}" aria-label="Facebook">
         <i class="mr-4 {{ site.data.connect.facebook }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.github %}
-    <a href="{{ data.github }}" aria-label="GitHub">
+      <a href="{{ data.github }}" aria-label="GitHub">
         <i class="mr-4 {{ site.data.connect.github }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.youtube %}
-    <a href="{{ data.youtube }}" aria-label="YouTube">
+      <a href="{{ data.youtube }}" aria-label="YouTube">
         <i class="mr-4 {{ site.data.connect.youtube }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.instagram %}
-    <a href="{{ data.instagram }}" aria-label="Instagram">
+      <a href="{{ data.instagram }}" aria-label="Instagram">
         <i class="mr-4 {{ site.data.connect.instagram }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.figma %}
-    <a href="{{ data.figma }}" aria-label="Figma">
+      <a href="{{ data.figma }}" aria-label="Figma">
         <i class="mr-4 {{ site.data.connect.figma }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
     {% if data.rss %}
-    <a href="{{ data.rss }}" aria-label="RSS">
+      <a href="{{ data.rss }}" aria-label="RSS">
         <i class="mr-4 {{ site.data.connect.rss }} {{ site.data.connect.md }}"></i>
-    </a>
+      </a>
     {% endif %}
-</p>
+  </p>
 <!-- Connect -->
 {% else %}
-<p class="social">
+  <p class="social">
     {% for item in site.data.connect.docs %}
-    {% if item.url %}
-    <a href="{{ item.url }}" class="mr-4" target="_blank" aria-label="{{ item.name }}">
-        <i class=" {{ item.icon }} {{ site.data.connect.md }}"></i>
-    </a>
-    {% endif %}
+      {% if item.url %}
+        <a
+          href="{{ item.url }}"
+          class="mr-4"
+          target="_blank"
+          aria-label="{{ item.name }}">
+          <i class=" {{ item.icon }} {{ site.data.connect.md }}"></i>
+        </a>
+      {% endif %}
     {% endfor %}
-</p>
+  </p>
 {% endif %}
