@@ -3,11 +3,9 @@ layout: wrapper
 title: News
 description: Latest updates from Civic Hacking Agency.
 ---
-<div class="col-sm-12">
-    <div class="card-deck">
-        {% assign posts = site.posts %}
-        {% for item in posts %}
-        {% include card-posts.html %}
-        {% endfor %}
-    </div>
+<div class="col-12">
+  <div class="card-deck">
+    {% assign posts = site.posts %}
+    {% include card-posts.html %}
+  </div>
 </div>

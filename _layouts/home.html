@@ -6,7 +6,7 @@ layout: home
 {% include nav.html %}
 <main>
   {% include jumbotron.html %}
-  <div class="container container-line">
+  <div class="container mb-5 pb-5 border-bottom">
     <div class="row">
       <div class="col-sm-12">
         <h2>{{ page.about-title }}</h2>
@@ -20,7 +20,7 @@ layout: home
       </div>
       <div class="col-sm-6">
         <h3 class="h4">Civic Hacking Agency</h3>
-        <p>Connecting youth technologists to a new way of doing 
+        <p>Connecting youth technologists to a new way of doing          
                     civics.</p>
       </div>
     </div>
@@ -31,7 +31,7 @@ layout: home
       </div>
     </div>
   </div>
-  <div class="container container-line">
+  <div class="container mb-5 pb-5 border-bottom">
     <div class="row">
       <div class="col-sm-12">
         <h2>{{ page.faq-title }}</h2>
@@ -40,21 +40,21 @@ layout: home
     <div class="row">
       <div class="col-sm-4">
         <h3 class="h4">Who's this for?</h3>
-        <p>High school students interested in civics and technology (and 
+        <p>High school students interested in civics and technology (and          
                     are into coding).
         </p>
       </div>
       <div class="col-sm-4">
         <h3 class="h4">How can I help?</h3>
         <p>We're just getting started and looking for a meetup space.
-          <a href="https://docs.civichackingagency.org">Contact 
+          <a href="https://docs.civichackingagency.org">Contact          
                         us</a>
           if you have a space or ideas for us.</p>
       </div>
       <div class="col-sm-4">
         <h3 class="h4">How can we stay updated?</h3>
         <p>
-          <a href="https://docs.civichackingagency.org/connect">Subscribe to our newsletter and follow us on 
+          <a href="https://docs.civichackingagency.org/connect">Subscribe to our newsletter and follow us on          
                         social media.</a>
         </p>
       </div>
@@ -67,7 +67,7 @@ layout: home
     </div>
   </div>
   {% if site.posts %}
-    <div class="container container-line">
+    <div class="container mb-5 pb-5 border-bottom">
       <div class="row">
         <div class="col-sm-12">
           <h2>{{ page.news-title }}</h2>
@@ -76,9 +76,7 @@ layout: home
       <div class="row">
         <div class="col-sm-12">
           {% assign posts = site.posts %}
-          {% for item in posts %}
-            {% include card-posts.html %}
-          {% endfor %}
+          {% include card-posts.html %}
         </div>
       </div>
       <div class="row">
@@ -89,7 +87,43 @@ layout: home
       </div>
     </div>
   {% endif %}
-  <div class="container container-line">
+  <div class="container mb-5 pb-5 border-bottom">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>{{ page.projects-title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        {% include card-projects.html %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <a href="{{ site.baseurl }}{{ page.projects-link}}" class="btn btn-primary">{{
+page.projects-title }}</a>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-5 pb-5 border-bottom">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>{{ page.press-title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        {% include card-press.html %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <a href="{{ site.baseurl }}{{ page.press-link}}" class="btn btn-primary">{{
+page.press-title }}</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <h2>{{ page.events-title }}</h2>
@@ -120,42 +154,6 @@ layout: home
       <div class="col-sm-12">
         <a href="{{ site.baseurl }}{{ page.events-link}}" class="btn btn-primary">{{ page.events-title
 }}</a>
-      </div>
-    </div>
-  </div>
-  <div class="container mb-5">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2>{{ page.projects-title }}</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        {% include card-projects.html %}
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <a href="{{ site.baseurl }}{{ page.projects-link}}" class="btn btn-primary">{{
-page.projects-title }}</a>
-      </div>
-    </div>
-  </div>
-  <div class="container container-line">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2>{{ page.press-title }}</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        {% include card-press.html %}
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <a href="{{ site.baseurl }}{{ page.press-link}}" class="btn btn-primary">{{
-page.press-title }}</a>
       </div>
     </div>
   </div>

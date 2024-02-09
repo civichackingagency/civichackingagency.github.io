@@ -87,6 +87,12 @@ img {
     padding: var(--size-8);
 }
 
+blockquote p {
+    border-left: var(--size-3) solid var(--color-5);
+    margin-bottom: var(--size-3);
+    padding-left: var(--size-3);
+}
+
 html, body {
     font-family: var(--font-3);
 }
@@ -196,12 +202,6 @@ body, .card-body, .card {
 
 .text-muted, .text-secondary {
     color: var(--color-7) !important;
-}
-
-.container-line {
-    border-bottom: var(--size-2) solid var(--color-4);
-    margin-bottom: var(--size-4);
-    padding-bottom: var(--size-4);
 }
 
 .card-deck {

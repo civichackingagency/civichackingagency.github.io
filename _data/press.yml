@@ -1,6 +1,11 @@
 docs_list_title: press
 docs:
 
+- title: "On some basic metadata practices, US government gets an ‘F,’ per new online tracker"
+  url: https://fedscoop.com/on-some-basic-metadata-practices-us-government-gets-an-f-per-new-online-tracker/
+  source: FedScoop
+  feat-img: fedscoop.png
+
 - title: "A Young Civic Hacker Could Be the Next Generation of Gov Tech"
   url: https://www.govtech.com/civic/a-young-civic-hacker-could-be-the-next-generation-of-gov-tech
   source: Government Technology
