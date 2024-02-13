@@ -18,7 +18,7 @@ Civic hacking is the practice of collaboratively designing democracy and coding 
 
 ## Civic Hacking Agency
 
-Civic Hacking Agency is testing out a new way to bring youth technologists together to design, code and learn a new way to experience civics.
+Civic Hacking Agency is testing out a new way to bring technologists together to design, code and learn a new way to experience civics.
 
 We'll do this through:
 

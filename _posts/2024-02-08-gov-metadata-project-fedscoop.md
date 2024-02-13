@@ -1,13 +1,13 @@
 ---
-title:  "CHA in the news: On some basic metadata practices, US government gets an ‘F,’ per new online tracker (FedScoop)"
-date:   2024-02-08
+title: "CHA in the news: On some basic metadata practices, US government gets an ‘F,’ per new online tracker (FedScoop)"
+date: 2024-02-08
 author: Civic Hacking Agency
-description: ""
-img: #-header.png
-img-feat: #-feat.png
-img-og: #-og.png
-img-twitter: #-twitter.png
-img-alt: #""
+description: "FedScoop reported on our gov metadata project."
+img: fedscoop.png
+img-feat: fedscoop.png
+img-og: data-is-plural.png
+img-twitter: data-is-plural.png
+img-alt: "FedScoop"
 topics:
   - civic hacking
 ---
@@ -22,4 +22,4 @@ FedScoop reported on our [gov metadata project](/projects/gov-metadata):
 
 > “The feedback from the ‘gov metadata’ scoring system is invaluable to us as it helps gauge our performance in implementing basic metadata principles,” said Ryan Honick, a public affairs specialist at the Department of Labor. “It acts as a catalyst for ongoing improvement, driving us to refine our strategies for making our websites as accessible and user-friendly as possible.” 
 
-Full story: [On some basic metadata practices, US government gets an ‘F,’ per new online tracker ](https://fedscoop.com/on-some-basic-metadata-practices-us-government-gets-an-f-per-new-online-tracker/)
+Full story: [On some basic metadata practices, US government gets an ‘F,’ per new online tracker](https://fedscoop.com/on-some-basic-metadata-practices-us-government-gets-an-f-per-new-online-tracker/)

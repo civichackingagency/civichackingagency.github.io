@@ -1,6 +1,6 @@
 ---
-title:  ""
-date:   YYY-MM-DD
+title: ""
+date: YYYY-MM-DD
 author: Civic Hacking Agency
 description: ""
 img: #-header.png

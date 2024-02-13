@@ -11,7 +11,7 @@ Civic hacking is the practice of collaboratively designing democracy and coding 
 
 ## Civic Hacking Agency
 
-CHA is focused on connecting youth technologists with a new way of doing civics.
+CHA is focused on connecting technologists with a new way of doing civics.
 
 We do this through:
 

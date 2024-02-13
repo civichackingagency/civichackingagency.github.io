@@ -1,35 +1,38 @@
 <div class="card-deck">
-    {% if include.limit %}
+  {% if include.limit %}
     {% assign limitVar = include.limit | plus: 0 %}
-    {% endif %}
-    {% for item in site.speakers limit: limitVar %}
+  {% endif %}
+  {% for item in site.speakers limit: limitVar %}
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-        <div class="card">
-            <div class="card-body">
-                {% if item.feat-img %}
-                <img src="{{ site.baseurl }}/assets/img/people/{{ item.feat-img }}" alt="{{ item.title }}"
-                    class="img-circle sm rounded-circle float-left mr-4 mb-3">
-                {% endif %}
-                <h3 class="h4">
-                    <a href="{{ item.url }}" class="stretched-link">
-                        {{ item.title }}
-                    </a>
-                </h3>
-                <p>{% if item.speaker-title %}
-                    {{ item.speaker-title }}
-                    {% endif %}
-                    {% if item.speaker-org %}
-                    <br>
-                    {{ item.speaker-org }}
-                    {% endif %}
-                </p>
-                {% if item.speaker-status %}
-                <p>
-                    <span class="badge badge-primary mb-3">{{ item.speaker-status }}</span>
-                </p>
-                {% endif %}
-            </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          {% if item.feat-img %}
+            <img
+              src="{{ site.baseurl }}/assets/img/people/{{ item.feat-img }}"
+              alt="{{ item.title }}"
+              class="img-circle sm rounded-circle float-left mr-4 mb-3">
+          {% endif %}
+          <h3 class="h4">
+            <a href="{{ item.url }}" class="stretched-link">
+              {{ item.title }}
+            </a>
+          </h3>
+          <p>
+            {% if item.speaker-title %}
+              {{ item.speaker-title }}
+            {% endif %}
+            {% if item.speaker-org %}
+              <br>
+              {{ item.speaker-org }}
+            {% endif %}
+          </p>
+          {% if item.speaker-status %}
+            <p>
+              <span class="badge badge-primary mb-3">{{ item.speaker-status }}</span>
+            </p>
+          {% endif %}
         </div>
+      </div>
     </div>
-    {% endfor %}
+  {% endfor %}
 </div>

@@ -1,32 +1,33 @@
 <div class="card-deck">
-    {% if include.limit %}
+  {% if include.limit %}
     {% assign limitVar = include.limit | plus: 0 %}
-    {% endif %}
-    {% for item in site.events limit: limitVar %}
+  {% endif %}
+  {% for item in site.events limit: limitVar %}
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
-        <div class="card">
-            <div class="card-body">
-                {% if item.feat-img %}
-                <img src="{{ site.baseurl }}/assets/img/{{ item.feat-img }}" alt="{{ item.title }}"
-                    class="img-circle sm rounded-circle float-left mr-4 mb-3">
-                {% endif %}
-                <h3 class="h4">
-                    <a href="{{ item.url }}" class="stretched-link">
-                        {{ item.title }}
-                    </a>
-                </h3>
-                <!--
-                {% if item.date %}
-                {% include date.html %}<br>
-                {% endif %}
-                -->
-                {% if item.date-tbd %}
-                {{ item.date-tbd }}<br>
-                {% endif %}
-                {{ item.time }}<br>
-                {{ item.location }}
-            </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          {% if item.feat-img %}
+            <img
+              src="{{ site.baseurl }}/assets/img/{{ item.feat-img }}"
+              alt="{{ item.title }}"
+              class="img-circle sm rounded-circle float-left mr-4 mb-3">
+          {% endif %}
+          <h3 class="h4">
+            <a href="{{ item.url }}" class="stretched-link">
+              {{ item.title }}
+            </a>
+          </h3>
+          <!--
+            {% if item.date %}{% include date.html %}<br>
+          {% endif %}
+          -->
+          {% if item.date-tbd %}
+            {{ item.date-tbd }}<br>
+          {% endif %}
+          {{ item.time }}<br>
+          {{ item.location }}
         </div>
+      </div>
     </div>
-    {% endfor %}
+  {% endfor %}
 </div>

@@ -11,7 +11,7 @@ Civic hacking is the practice of collaboratively designing democracy and coding 
 
 ## What is Civic Hacking Agency?
 
-CHA is focused on connecting youth technologists with a new way of doing civics.
+CHA is focused on connecting technologists with a new way of doing civics.
 
 We do this through:
 
@@ -20,11 +20,11 @@ We do this through:
 
 ## Who's it for?
 
-Lamorinda (Lafayette / Moraga / Orinda) high school students interested in civics and technology (and are into coding). 
+Anyone interested in civics and technology (and are into coding). 
 
 ## Do you have to know how to code?
 
-Ideally, yes. This is for folks who are more technical and are looking to connect and collaborate with other like-minded youth technologists. Of course, we welcome others, but the expectation is that you already have some understanding of and practice in coding.
+Ideally, yes. This is for folks who are more technical and are looking to connect and collaborate with other like-minded technologists. Of course, we welcome others, but the expectation is that you already have some understanding of and practice in coding.
 
 ## What inspired you to do this?
 
@@ -34,7 +34,7 @@ We're testing to see if others might also be interested in civics-focused coding
 
 ## Are you an official nonprofit?
 
-No. We're testing this idea to see if it's of interest. If it is, we'll decide whether it's necessary to formalize operations and create an official nonprofit organization. For now, though, it's just a way to bring youth technologists together to code in the context of civics.
+No. We're testing this idea to see if it's of interest. If it is, we'll decide whether it's necessary to formalize operations and create an official nonprofit organization. For now, though, it's just a way to bring people together to code in the context of civics.
 
 ## How can I help?
 
