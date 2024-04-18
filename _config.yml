@@ -6,6 +6,7 @@ url: https://civichackingagency.org
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 #  - jekyll-paginate
 markdown: kramdown
 
