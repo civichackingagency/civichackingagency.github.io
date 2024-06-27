@@ -8,5 +8,6 @@ assignees: ''
 ---
 
 - [ ] Create meta images
+- [ ] Subdomain
 - [ ] Add new project page
 - [ ] Publish
