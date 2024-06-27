@@ -3,14 +3,14 @@
     {% assign limitVar = include.limit | plus: 0 %}
   {% endif %}
   {% for item in site.projects limit: limitVar %}
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-stretch">
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-stretch">
       <div class="card mb-3">
         <div class="card-body">
           {% if item.img-feat %}
             <img
               src="{{ site.baseurl }}/assets/img/{{ item.img-feat }}"
               alt="{{ item.title }}"
-              class="lg mb-3">
+              class="lg mb-3 border">
           {% endif %}
           <h3 class="card-title h5">
             <a href="{{ item.url }}" class="stretched-link">

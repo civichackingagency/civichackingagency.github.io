@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>{{ page.events-title }}</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <h3 class="h4">Meetups</h3>
+      <p>Pitch, code and demo civic-focused projects.</p>
+    </div>
+    <div class="col-sm-6">
+      <h3 class="h4">Guest talks</h3>
+      <p>Engage with civic technology experts and leaders.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h3 class="h4">Upcoming events</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      {% include card-events.html %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <a href="{{ site.baseurl }}{{ page.events-link}}" class="btn btn-primary">{{ page.events-title }}</a>
+    </div>
+  </div>
+</div>

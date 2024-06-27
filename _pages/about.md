@@ -22,7 +22,7 @@ We do this through:
 
 The idea for CHA began after Luke (father) and Elias (son) Fretwell started coding together during the pandemic. [Learn more about our story.](https://www.govtech.com/civic/a-young-civic-hacker-could-be-the-next-generation-of-gov-tech)
 
-Elias is a sophomore at Acalanes High School in Lafayette, Calif. 
+Elias is a junior at Acalanes High School in Lafayette, Calif. 
 
 Luke is the co-founder of [ProudCity](https://proudcity.com), a platform empowering local governments across the nation to deliver better digital services. [More about Luke.](https://lukefretwell.com)
 
