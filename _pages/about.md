@@ -11,26 +11,20 @@ Civic hacking is the practice of collaboratively designing democracy and coding 
 
 ## Civic Hacking Agency
 
-CHA is focused on connecting technologists with a new way of doing civics.
-
-We do this through:
-
-* Regular meetups: Pitch, code and demo civic-focused projects.
-* Guest talks: Engage with civic technology experts and leaders. 
+A father and son hacking for good.
 
 ## People
 
-The idea for CHA began after Luke (father) and Elias (son) Fretwell started coding together during the pandemic. [Learn more about our story.](https://www.govtech.com/civic/a-young-civic-hacker-could-be-the-next-generation-of-gov-tech)
+The idea for CHA began after Luke (father) and Elias (son) Fretwell started coding together during the pandemic.
 
 Elias is a junior at Acalanes High School in Lafayette, Calif. 
 
-Luke is the co-founder of [ProudCity](https://proudcity.com), a platform empowering local governments across the nation to deliver better digital services. [More about Luke.](https://lukefretwell.com)
+[Luke](https://lukefretwell.com) is the founder/maintainer of [GovFresh](https://govfresh.com), a media and innovation lab working at the intersection of design, technology and democracy. 
 
-## Related
+## Projects
 
-* [FAQs](/faqs)
-* [Getting started](https://docs.civichackingagency.org/getting-started)
-* [Values](https://docs.civichackingagency.org/values)
-* [Code of conduct](https://docs.civichackingagency.org/conduct)
-* [Docs](https://docs.civichackingagency.org/)
-* [Contact](https://docs.civichackingagency.org/contact)
+[Civic Hacking Agency projects](/projects)
+
+## Press
+
+[Civic Hacking Agency in the news](/press)

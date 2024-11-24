@@ -40,7 +40,7 @@ docs:
     icon: *website
 
   - name: Email
-    url: 
+    url: civichackingagency@gmail.com
     icon: *email
 
   - name: Subscribe
@@ -64,7 +64,7 @@ docs:
     icon: *github
 
   - name: Instagram
-    url: https://www.instagram.com/civichackingagency/
+    url: 
     icon: *instagram
 
   - name: X 

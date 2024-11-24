@@ -1,9 +1,10 @@
 ---
 layout: home
 title: "Civic Hacking Agency"
-description: "Community. Technology. Democracy."
-description-2: "Bringing technologists together to design, code and learn a new way to experience civics."
+description: "Civic + Hacking"
+description-2: "A father and son hacking for good."
 about-title: About
+about-link-title: Learn more
 about-link: /about/
 news-title: News
 news-link: /news/

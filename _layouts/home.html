@@ -4,7 +4,7 @@ layout: home
 
 {% include header.html %}
 {% include nav.html %}
-<main>
+  <main>
   {% include jumbotron.html %}
   <div class="container mb-5 pb-5 border-bottom">
     <div class="row">
@@ -20,13 +20,12 @@ layout: home
       </div>
       <div class="col-sm-6">
         <h3 class="h4">Civic Hacking Agency</h3>
-        <p>Connecting technologists to a new way of doing                          
-                    civics.</p>
+        <p>A father and son hacking for good.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12">
-        <a href="{{ site.baseurl }}{{ page.about-link}}" class="btn btn-primary mt-3">{{ page.about-title
+        <a href="{{ site.baseurl }}{{ page.about-link}}" class="btn btn-primary mt-3">{{ page.about-link-title
 }}</a>
       </div>
     </div>
@@ -49,11 +48,8 @@ page.projects-title }}</a>
       </div>
     </div>
   </div>
-  {% if site.posts %}
-    <div class="container mb-5 pb-5 border-bottom">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2>{{ page.news-title }}</h2>
+  <!--
+    {% if site.posts %}  <div class="container mb-5 pb-5 border-bottom">    <div class="row">      <div class="col-sm-12">        <h2>{{ page.news-title }}</h2>
         </div>
       </div>
       <div class="row">
@@ -65,11 +61,12 @@ page.projects-title }}</a>
       <div class="row">
         <div class="col-sm-12">
           <a href="{{ site.baseurl }}{{ page.news-link}}" class="btn btn-primary">{{ page.news-title
-}}</a>
+  }}</a>
         </div>
       </div>
     </div>
   {% endif %}
+  -->
   <div class="container mb-5">
     <div class="row">
       <div class="col-sm-12">
