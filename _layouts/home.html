@@ -6,8 +6,8 @@ layout: home
 {% include nav.html %}
   <main>
   {% include jumbotron.html %}
-  <div class="container mb-5 pb-5 border-bottom">
-    <div class="row">
+  <!--
+    <div class="container mb-5 pb-5 border-bottom">  <div class="row">
       <div class="col-sm-12">
         <h2>{{ page.about-title }}</h2>
       </div>
@@ -26,10 +26,11 @@ layout: home
     <div class="row">
       <div class="col-sm-12">
         <a href="{{ site.baseurl }}{{ page.about-link}}" class="btn btn-primary mt-3">{{ page.about-link-title
-}}</a>
+  }}</a>
       </div>
     </div>
   </div>
+  -->
   <div class="container mb-5 pb-5 border-bottom">
     <div class="row">
       <div class="col-sm-12">
@@ -49,9 +50,7 @@ page.projects-title }}</a>
     </div>
   </div>
   <!--
-    {% if site.posts %}  <div class="container mb-5 pb-5 border-bottom">    <div class="row">      <div class="col-sm-12">        <h2>{{ page.news-title }}</h2>
-        </div>
-      </div>
+    {% if site.posts %}  <div class="container mb-5 pb-5 border-bottom">    <div class="row">      <div class="col-sm-12">        <h2>{{ page.news-title }}</h2>      </div>    </div>
       <div class="row">
         <div class="col-sm-12">
           {% assign posts = site.posts %}

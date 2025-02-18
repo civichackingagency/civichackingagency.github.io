@@ -11,10 +11,9 @@ Website: [civichackingagency.org](https://civichackingagency.org)
 
 ## Help
 
-* [Documentation](https://docs.civichackingagency.org/)
 * [Report an issue](https://github.com/civichackingagency/civichackingagency.github.io/issues/new/choose)
-* [Contact us](https://docs.civichackingagency.org/contact)
+* [Contact us](https://civichackingagency.org/contact)
 
 ## Etc.
 
-* [Code of conduct](https://docs.civichackingagency.org/conduct/)
+* [Code of conduct](https://civichackingagency.org/conduct/)

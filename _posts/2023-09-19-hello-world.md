@@ -46,4 +46,4 @@ Connect with us to stay updated on how our next steps and how to get involved:
 * [GitHub](https://github.com/civichackingagency/)
 * [RSS](https://civichackingagency.org/feed.xml)
 
-Questions? Interested in helping out? Read our [FAQs](/faqs) or [send us a message.](https://docs.civichackingagency.org/contact/)
+Questions? Interested in helping out? Read our [FAQs](/faqs) or [send us a message.](https://civichackingagency.org/contact/)
